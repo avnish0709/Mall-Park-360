@@ -1,10 +1,6 @@
 # Contributing to MallPark 360
 
-Thank you for your interest in contributing! Please read these guidelines before making contributions.
-
-## Code of Conduct
-
-Be respectful, inclusive, and professional in all interactions.
+Thank you for your interest in contributing for MallPark360
 
 ## How to Contribute
 
@@ -82,5 +78,3 @@ npm run dev
 ## Questions?
 
 Feel free to open an issue with the `question` label.
-
-Thank you for contributing!
