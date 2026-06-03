@@ -97,3 +97,32 @@ cd Mall-Park-360
 python -m venv venv
 venv\Scripts\activate
 ```
+
+###Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+- Requirements
+  - fastapi = 0.104.1
+  - uvicorn = 0.24.0
+  - python-multipart = 0.0.6
+
+---
+
+## Configuration
+
+- Parking Layout Configuration
+  - Parking Layout Configuration
+    - You can configure the parking lot structure by setting:
+    - Slots per Floor: Default is 20 slots per floor
+    - Number of Floors: Default is 2 floors
+
+  - The system organizes slots by:
+    - Floors: Represented as negative numbers (-1, -2, etc.)
+    - Pillars: A, B, C, D, E, F (6 pillars, 10 slots each)
+    - Slot Numbers: 1-10 per pillar
+    
+  - Current Configuration:
+    - Total Slots: 40 (20 per floor × 2 floors)
+    - Floors: 2 (B1, B2)
+    - Pillars per Floor: 2 (A, B, C for 20 slots)
