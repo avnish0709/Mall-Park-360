@@ -126,3 +126,49 @@ pip install -r requirements.txt
     - Total Slots: 40 (20 per floor × 2 floors)
     - Floors: 2 (B1, B2)
     - Pillars per Floor: 2 (A, B, C for 20 slots)
+
+---
+
+## Default Credentials 
+Default Credentials
+Use these credentials to test different roles:
+
+| Role | Email | Password |
+|------|-------|----------|
+| Supervisor |	supervisor@mallpark360.com | Supervisor@123 |
+| Officer	| officer@mallpark360.com | Officer@123 |
+| Attendant	| attendant@mallpark360.com	| Attendant@123 |
+
+---
+
+## Running the Application
+```bash
+python3 app.py
+```
+- Access the Application
+  - Main Portal: http://localhost:5000
+  - http://localhost:5000/docs
+
+---
+
+## API Documentation
+
+- Authentication Endpoints
+- Login
+
+```bash
+  POST /api/login
+Content-Type: application/json
+
+{
+  "email": "supervisor@mallpark360.com",
+  "password": "Supervisor@123"
+}
+
+Response:
+{
+  "token": "auth_token_here",
+  "role": "supervisor",
+  "name": "Rajesh Kumar"
+}
+```
