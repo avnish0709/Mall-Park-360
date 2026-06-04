@@ -316,3 +316,30 @@ CREATE TABLE config(
   floors INTEGER
 )
 ```
+
+## Role-Based Features
+### Parking Supervisor
+  - View comprehensive dashboards with all statistics
+  - Monitor daily parking and revenue
+  - Access 7-day income analytics
+  - View all tickets and parking history
+  - Generate reports
+  - Permissions: Can clear/reserve slots
+  - View all the data
+
+### Parking Officer
+  - Monitor parking violations
+  - Track vehicle movements
+  - Manage enforcement actions
+  - Access parking lot overview
+  - Permissions: View-only
+
+  ### Parking Lot Attendant
+  - Manage slot reservations
+  - Release parked vehicles
+  - Configure parking lot layout
+  - Create tickets and manage payments
+  - Adjust slots per floor and number of floors
+  - Permissions: Full slot management and configuration
+    
+---
