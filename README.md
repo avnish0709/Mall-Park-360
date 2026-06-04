@@ -332,6 +332,8 @@ CREATE TABLE config(
     <img width="291" height="157" alt="PS-4" src="https://github.com/user-attachments/assets/e3fb10af-43f6-478d-a399-00801b562411" />
     <img width="1518" height="345" alt="PS-6" src="https://github.com/user-attachments/assets/94caf5a9-4f85-41b6-a9fc-f02b188330ca" />
   - View all the data
+    
+---
 
 ### Parking Officer
   - Monitor parking violations
@@ -342,6 +344,8 @@ CREATE TABLE config(
 
     <img width="1276" height="717" alt="image" src="https://github.com/user-attachments/assets/5d9c2f51-3c04-42f7-9b6c-8cb85c7dc455" />
     <img width="1536" height="861" alt="PO-1" src="https://github.com/user-attachments/assets/0f663af1-7a93-48f7-9fb4-a0cf2746f91b" />
+
+---
 
   ### Parking Lot Attendant
   - Manage slot reservations
