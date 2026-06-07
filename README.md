@@ -366,4 +366,27 @@ CREATE TABLE config(
 - Total: Base + GST
   
 <img width="523" height="864" alt="Screenshot 2026-06-04 154507" src="https://github.com/user-attachments/assets/4a290ecc-144b-4818-b614-dc246bb3e5a7" />
+---
 
+## Changelog
+
+### Added
+- Initial release of MallPark 360
+- Attendant dashboard for parking operations
+- Officer dashboard with reports
+- Supervisor panel for configuration
+- Role-based access control (3 roles)
+- Parking slot management system
+- Automated ticket generation
+- Dynamic pricing with GST
+- RESTful API with 15+ endpoints
+- SQLite database
+- Vite build tool optimization
+- FastAPI with auto-documentation
+
+### Features
+- Multi-floor parking support
+- Real-time slot availability
+- Entry/exit ticketing
+- Income statistics
+- Occupancy tracking
